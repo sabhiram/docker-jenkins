@@ -20,3 +20,6 @@ EXPOSE 8080
 
 # Run the command to start the jenkins server
 CMD ["java", "-jar", "/root/jenkins.war"]
+
+# To run jenkins with a different port try the following...
+# CMD ["java", "-jar", "/root/jenkins.war", "--httpPort=1234"]
