@@ -7,7 +7,7 @@ Usage:
 
 **Build the image**
 
-    docker build -rm -t <yourname>/jenkins git://github.com/Sinist3rDext3r/docker-jenkins.git
+    docker build -rm -t <yourname>/jenkins git://github.com/sabhiram/docker-jenkins.git
 
 **Run it, and capture the container's ID**
 
